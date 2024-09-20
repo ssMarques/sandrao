@@ -26,9 +26,13 @@ const solucoesData: Solucao[] = [
 ];
 
 const Solucoes: React.FC = () => {
+
   return (
+
     <section id="solucoes" className="container py-lg">
+
       <h2 className="titulo-secao">Nossas Soluções</h2>
+      
       <div className="grid-solucoes">
         {solucoesData.map((solucao, index) => (
           <div key={index} className="cartao-solucao">

@@ -25,18 +25,21 @@ const Planos: React.FC = () => {
     <section id="planos" className="container">
       <h1>Nossos Planos Promocionais</h1>
       <div className="planos-grid">
+
         <Plano
           title="Plano Básico"
           speed="450 MEGAS"
           price="R$ 99,00"
           description="Ideal para navegação e streaming de vídeos."
         />
+
         <Plano
           title="Plano Médio"
           speed="650 MEGAS"
           price="R$ 144,90"
           description="Perfeito para quem precisa de mais velocidade."
         />
+        
         <Plano
           title="Plano Avançado"
           speed="950 MEGAS"
