@@ -29,7 +29,7 @@ const Solucoes: React.FC = () => {
 
   return (
 
-    <section id="solucoes" className="container py-lg">
+    <section id="solucoes" className="container-solution container py-lg">
 
       <h2 className="titulo-secao">Nossas Soluções</h2>
       

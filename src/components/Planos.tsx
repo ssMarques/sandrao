@@ -22,7 +22,7 @@ const Plano: React.FC<PlanoProps> = ({ title, speed, price, description }) => {
 
 const Planos: React.FC = () => {
   return (
-    <section id="planos" className="container">
+    <section id="planos" className="container container-planos">
       <h1>Nossos Planos Promocionais</h1>
       <div className="planos-grid">
 

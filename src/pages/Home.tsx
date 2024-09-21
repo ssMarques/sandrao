@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Logo from "../assets/images/logo.png.jpg"; 
 import Close from "../assets/close.svg";
 import Menu from "../assets/menu.svg";
@@ -15,6 +15,14 @@ import Planos from "../components/Planos";
 
 export default function Home() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  useEffect(() => {
+    if(showMobileMenu){
+      document.documentElement.style.overflowY = "hidden";
+    }else{
+      document.documentElement.style.overflowY = "auto";
+    }
+  })
 
   return (
     <>
